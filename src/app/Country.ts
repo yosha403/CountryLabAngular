@@ -3,7 +3,5 @@ export interface Country{
     name: string;
     language: string;
     colors: string[];
-    flagUrl?: string;
-    longitude?: number;
-    latitude?: number;
+    flagUrl: string;    
 }

@@ -9,6 +9,10 @@
                 <div class="col-sm flag" style="background-color:{{country.colors[1]}}"> </div>
                 <div class="col-sm flag" *ngIf="country.colors[2]" style="background-color:{{country.colors[2]}}"> </div>
             </div>
+            <br>
+            <div>                
+            <img class="countryFlag" src="{{country.flagUrl}}"/>
+        </div>
          <!--  <div><button id="countrySelection" value="{{country.id}}" (click)="onSelect(country)" class="btn btn-light">Details</button></div>--> 
         </div>
     </div>

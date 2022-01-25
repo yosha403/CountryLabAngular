@@ -11,31 +11,36 @@ export class CountryService {
         id: 1,
         name: 'USA',
         language: 'English',
-        colors: ['white', 'red', 'blue'] 
+        colors: ['white', 'red', 'blue'] ,
+        flagUrl: "assets/usa.png"
     },
     {
         id: 2,
         name: 'Algeria',
         language: 'Arabic and Berber',
-        colors: ['blue', 'yellow','red']
+        colors: ['blue', 'yellow','red'],
+        flagUrl: "assets/algeria.png"
     },
     {
         id: 3,
         name: 'Mexico',
         language: 'Spanish',
-        colors: ['white', 'red', 'green']
+        colors: ['white', 'red', 'green'],
+        flagUrl: "assets/mexico.png"
     },
     {
         id: 4,
         name: 'Sweden',
         language: 'Swedish',
-        colors: ['#FFec00', '#006aa7']
+        colors: ['#FFec00', '#006aa7'],
+        flagUrl: "assets/swedan.png"
     },
     {
       id: 5,
       name: 'Australia',
       language: 'English',
-      colors: ['#012169', 'white', '#E4002B']
+      colors: ['#012169', 'white', '#E4002B'],
+      flagUrl: "assets/australia.png"
   }
 ];
   constructor() { }
